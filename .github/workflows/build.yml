@@ -48,8 +48,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/insertdisc/yolks:boiii
-            ${{ secrets.DOCKER_HUB_USERNAME }}/yolks:boiii
+            ghcr.io/insertdisc/boiii-yolk:latest
+            ${{ secrets.DOCKER_HUB_USERNAME }}/boiii-yolk:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max 
           
